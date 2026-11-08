@@ -1,0 +1,67 @@
+body{
+	background-color: black;
+}
+
+#banner{
+	margin: auto;
+	height: 220px;
+	width: 1024px;
+	background-image: url(../img/Background.png);
+	overflow: hidden;
+}
+
+#luna{
+	position: relative;
+	top: -150px;
+	height: 134px;
+	width: 134px;
+	background: url(../img/luna.png);
+
+	animation: luna 1s infinite ease-out;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@-webkit-keyframes luna{
+	0%{top:-150px;left:200px;transform:scale(0.2);}
+	100%{top:-25px;left:800px;transform:scale(1);}
+}
+
+
+#Tipo{
+	position: relative;
+	top: -35px;
+	height: 64px;
+	width: 530px;
+	background: url(../img/Tipografía.png);
+
+	animation: Tipo 1s infinite ease-out;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@-webkit-keyframes Tipo{
+	0%{top:-35px;left:-1170px;transform:scale(1) rotateY(0deg);}
+	100%{top:-15px; left:370px; transform:scale(0.5) rotateY(360deg);}
+}
+
+
+#estrella{
+	position: relative;
+	top: 100px;
+	height: 28px;
+	width: 117px;
+	background: url(../img/estrella.png);
+
+	animation: estrella 1s infinite ease-out;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: 1;
+}
+
+@-webkit-keyframes estrella{
+	0%{top:100px;left:-150px;transform:scale(1);}
+	100%{top:100px;left:800px;transform:scale(1);}
+}
